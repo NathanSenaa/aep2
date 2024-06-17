@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DoaFacil.Pedidos.Application\DoaFacil.Pedidos.Application.csproj" />
+    <ProjectReference Include="..\DoaFacil.Pedidos.Domain\DoaFacil.Pedidos.Domain.csproj" />
+    <ProjectReference Include="..\DoaFacil.Pedidos.Infra.Data\DoaFacil.Pedidos.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
